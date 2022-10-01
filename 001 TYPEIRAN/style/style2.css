@@ -1,0 +1,550 @@
+@import url(reset.css);
+
+@font-face {
+    font-family: vazirNormal;
+    src: url('../fonts/vazir.eot');
+    src: url('../fonts/vazir.eot?#iefix') format('embedded-opentype'), url('../fonts/vazir.woff2') format('woff2'), url('../fonts/vazir.woff') format('woff'), url('../fonts/vazir.ttf') format('truetype');
+    font-weight: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: vazirBold;
+    src: url('../fonts/vazir-bold.eot');
+    src: url('../fonts/vazir-bold.eot?#iefix') format('embedded-opentype'), url('../fonts/vazir-bold.woff2') format('woff2'), url('../fonts/vazir-bold.woff') format('woff'), url('../fonts/vazir-bold.ttf') format('truetype');
+    font-weight: normal;
+    font-display: swap;
+}
+body, input, button {
+    font-family: vazirNormal;
+    
+}
+body{
+    direction: rtl;
+    background-color: #f9fcff;
+    height: 4000px;
+    overflow: auto;
+}
+h1{
+    font-size: 45px;
+    font-family: vazirBold;
+}
+h2{
+    font-size: 30px;
+    font-family: vazirBold;
+
+}
+h3{
+    font-size: 24px;
+    font-family:vazirBold;
+
+}
+h4{
+    font-size: 18px;
+    font-family:vazirNormal;
+}
+
+.contaner{
+    width: 1300px;
+    margin:auto;
+
+}
+
+
+/*HEADDER UP*/
+
+.ulfirst{
+    background-color: #5a5686;
+
+}
+
+
+
+header a {
+    text-decoration: none;
+    color: #f9fcff;
+    padding: 7px 12px;
+
+}
+.ulfirst a:hover{
+    background-color: #bfcf30;
+    transition: 0.1s;
+    width: 60px;
+}
+#typeiran{
+    background-color: #bfcf30;
+}
+
+
+.upheader{
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+}
+
+.rightheader{
+    display: flex;
+    
+    width: 45%;
+    align-items: center;
+}
+
+.leftheader{
+    display: flex;
+    align-items: center;
+}
+
+
+/*secen ul*/
+.secendul{
+    background-color: #bfcf30;
+    height: 80px;
+    display: flex;
+    align-items: center;
+
+}
+
+.downheader ul{
+    width: 50%;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+button {
+    padding: 12px 12px;
+    margin: 0px 3px 6px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 4px;
+    border: none;
+    font-family: vazirBold;
+    cursor: pointer;
+}
+/**STEP 1***/
+
+.step1{
+    height: 500px;
+    background-color: #5a5686;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.step1box{
+
+    width: 500px;
+    text-align: center;
+    line-height: 90px;
+
+}
+
+.step1 h1{
+    color: #FEF9A7;
+}
+
+.step1 h3{
+    color: #FEF9A7;
+}
+
+.step1 button {
+    padding: 12px 12px;
+    margin: 0px 3px 6px;
+    text-align: center;
+    background-color: #FEF9A7;
+    text-decoration: none;
+    color: #5a5686;
+    border-radius: 4px;
+    border: none;
+    font-family: vazirBold;
+    cursor: pointer;
+}
+
+
+
+
+.step2 {
+    background-color: #4f8db3;
+    height: 560px;
+    
+}
+.step2 .contaner{
+    position: relative;
+}
+
+#s1p1{
+    position: absolute;
+    top:20px;
+    left: 20px;
+
+
+}
+
+#s1p2{
+    position: absolute;
+    top:204px;
+    right: 20px;
+
+}
+
+#s1p3{
+    position: absolute;
+    top:220px;
+    left: 550px;
+
+}
+
+#s1p4{
+    position: absolute;
+    top:170px;
+    left: 60px;
+
+}
+
+#s1p5{
+    position: absolute;
+    top:270px;
+    left: 690px;
+
+}
+
+#s1p6{
+    position: absolute;
+    top:400px;
+    left: 540px;
+
+    
+}
+
+#tittlestep1{
+    color:#f9fcff;
+    font-size: 22px;
+    position: relative;
+    top:60px;
+    left: -127px;
+
+    
+
+}
+#tittlestep2{
+    color:#f9fcff;
+    font-size: 20px;
+    position: relative;
+    top:100px;
+    left: -200px;
+
+}
+
+.step2 button{
+    position: relative;
+    top: 130px;
+    right:500px;
+    width: 100px;
+    height: 45px;
+    background-color: #fc1313;
+    color: white;
+
+}
+
+.step2 button:hover{
+    background-color: #af0a0a;
+}
+
+/**STEP 3**/
+
+.step3{
+    background-color: #b44d76;
+    height: 600px;
+    position: relative;
+    overflow: hidden;
+
+
+
+}
+
+.step3RightLeft{
+    display: flex;
+}
+
+.step3Right img{
+    width: 50%;
+    align-self: center;
+}
+.step3left img{
+    width: 50%;
+    align-self: center;
+}
+
+
+.step3Right{
+    background-color: #972150;
+    width: 50%;
+    height: 600px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding: 30px 0px;
+    box-sizing: border-box;
+    
+}
+.step3Right span{
+    height: 400px;
+    width: 90%;
+    display: flex;
+
+    flex-direction: column;
+    justify-content: space-between;
+    color: #ffff;
+    font-size: 22px;
+
+    
+}
+#master{
+    align-self: center;
+}
+
+.step3left{
+    background-color: #92285f;
+    width: 50%;
+    height: 600px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 30px 0px;
+    box-sizing: border-box;
+
+}
+
+.step3left span{
+    height: 400px;
+    width: 90%;
+    display: flex;
+
+    flex-direction: column;
+    justify-content: space-between;
+    color: #ffff;
+    font-size: 22px;
+
+    
+}
+#worker{
+    align-self: center;
+}
+#whoWorker{
+    align-self: end;
+}
+
+.tittleStep3{
+    color: #ffff;
+    font-size: 23px;
+    position: absolute;
+    top:50px;
+    z-index: 99;
+
+    width: 1400px;
+    text-align: center;
+}
+
+#btn3{
+    background-color: #af0a7d;
+    width: 150px;
+    color: #ffff;
+    position: absolute;
+    bottom: 60px;
+
+    right: 670px;
+}
+
+
+.step4{
+    background-color: #78a8c5;
+    height: 600px;
+    position: relative;
+}
+
+#imgStep41{
+    position: absolute;
+    right: 450px;
+    top:100px;
+
+}
+
+#imgStep42{
+    position: absolute;
+    right: 650px;
+    top:60px;
+
+}
+
+.textStep4{
+    position: absolute;
+    right: 830px;
+    top:200px;
+    font-size: 20px;
+    height: 200px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: rgb(63, 47, 47);
+}
+.t1{
+    font-size: 24px;
+}
+#btn4{
+    background-color: rgb(255, 123, 0);
+    color: #ffff;
+    width: 150px;
+    position: absolute;
+    bottom: 40px;
+    right: 760px;
+    animation-iteration-count: infinite;
+}
+
+.step5{
+    background-color: #13a166;
+    display: flex;
+    justify-content: space-around;
+    height: 600px;
+    align-items: center;
+    
+}
+.descriptionStep5{
+    order: -1;
+    display: flex;
+    flex-direction: column;
+    height: 320px;
+    width: 500px;
+    color: #ffff;
+    justify-content: space-around;
+    font-size: 20px;
+}
+.ds5{
+    height: 140px;
+
+    line-height: 30px;
+}
+.t1s5{
+    font-size: 25px;
+    color: #000000;
+}
+.step5 #iran{
+    height: 450px;
+}
+
+#btn5{
+    width: 210px;
+    background-color: #044d04;
+    color: #ffff;
+    align-self: center;
+}
+#btn5:hover{
+    background-color: #103610;
+    transition: 0.25s;
+}
+.step5box{
+    background-color: red;
+    position: relative;
+}
+
+#user1{
+    position: absolute;
+    top:170px;
+    left: 230px;
+}
+#user2{
+    position: absolute;
+    top:216px;
+    left: 340px;
+}
+#user3{
+    position: absolute;
+    top:116px;
+    left: 440px;
+}
+#user4{
+    position: absolute;
+    top:316px;
+    left: 540px;
+}
+#user5{
+    position: absolute;
+    top:340px;
+    left: 410px;
+}
+#user6{
+    position: absolute;
+    top:440px;
+    left: 550px;
+}
+#user7{
+    position: absolute;
+    top:300px;
+    left: 290px;
+}
+
+
+.step6{
+    height: 590px;
+    background-color: #2e96a3;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.step6 li:nth-child(odd){
+    background-color: #2e96a3;
+    height: 51px;
+}
+.step6 li:nth-child(even){
+    background-color: #ffff;
+    height: 69px;
+    display: flex;
+    align-items: center;
+}
+
+.step6 li:last-child{
+    height: 36px;
+
+
+}
+
+.step6 img {
+    position: absolute;
+    bottom:-5px;
+    left:80px;
+}
+
+
+.tittlestep6{
+    font-size: 24px;
+    padding-right: 100px;
+
+}
+#ti2step6{
+    padding-right: 170px;
+}
+.divContaner{
+    width: 700px;
+    font-size: 24px;
+    display: flex;
+    color: goldenrod;
+    justify-content: space-between;
+    margin-right: 190px;
+
+}
+#btn6{
+    height: 30px;
+    display: flex;
+    align-items: center;
+    margin-right: 390px;
+    background-color: orange;
+}
+#btn6:hover{
+    background-color: rgb(252, 173, 26);
+}
+#libtn6{
+    display: flex;
+    align-items: center;
+}
